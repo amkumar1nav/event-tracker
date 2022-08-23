@@ -1,9 +1,9 @@
 pipeline {
   agent any
   environment {
-    APPSYSID = '00f35c601b2b9410fe0165f8bc4bcb06'
-    BRANCH = "${BRANCH_NAME}"
-    CREDENTIALS = '18be2029-2e62-4070-8828-dbb3aa39f0f0'
+    APPSYSID = '01ba3e5f97d511101eb0fd9fe153aff4'
+    BRANCH = "${main}"
+    CREDENTIALS = '38d7d6b6-6507-4e33-8c90-c30f79c59825'
     DEVENV = 'https://devinstance.service-now.com/'
     TESTENV = 'https://testinstance.service-now.com/'
     PRODENV = 'https://prodinstance.service-now.com/'
